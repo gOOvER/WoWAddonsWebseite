@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gOOvER — World of Warcraft Addons</title>
+  <meta name="description" content="Modernized, multi-flavor World of Warcraft Addons by gOOvER for Retail, MoP Classic, Cataclysm, Wrath, TBC, Classic Era, and Forever." />
+  <meta property="og:title" content="gOOvER — World of Warcraft Addons" />
+  <meta property="og:description" content="Modernized, multi-flavor WoW Addons with Dark-Slate & Gold UI, ElvUI compatibility, and cross-expansion support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wow.goover.dev/" />
+  <link rel="canonical" href="https://wow.goover.dev/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-crest" aria-hidden="true">⚔</span>
+        <span class="brand-text">
+          <span class="brand-title">gOOvER</span>
+          <span class="brand-sub" data-i18n="brandSub">WoW Addons</span>
+        </span>
+      </a>
+
+      <nav class="header-actions" aria-label="Primary">
+        <a href="https://github.com/gOOvER" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub</a>
+        <a href="https://donate.goover.dev" target="_blank" rel="noopener noreferrer" class="btn btn-gold" data-i18n="supportBtn">Support Development</a>
+        <button type="button" id="langToggle" class="btn btn-lang" aria-label="Switch language">DE</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-badge" data-i18n="heroBadge">Reforged &amp; Maintained for Modern &amp; Classic WoW</div>
+        <h1 class="hero-title" data-i18n="heroTitle">World of Warcraft Addons</h1>
+        <p class="hero-desc" data-i18n="heroDesc">
+          Cleanly engineered, cross-expansion WoW addons supporting Retail, MoP Classic, Cataclysm, Wrath, TBC, Classic Era, and Forever — with native ElvUI support and zero legacy bloat.
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value" id="addonCount">9</span>
+            <span class="stat-label" data-i18n="statAddons">Active Addons</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">7</span>
+            <span class="stat-label" data-i18n="statFlavors">WoW Flavors</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">Open Source</span>
+            <span class="stat-label" data-i18n="statLicense">GPL-3.0 / LGPL-2.1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls-section">
+      <div class="container controls-bar">
+        <div class="filter-pills" role="tablist" aria-label="WoW Version Filter">
+          <button type="button" class="pill active" data-flavor="all" data-i18n="filterAll">All</button>
+          <button type="button" class="pill" data-flavor="Retail">Retail</button>
+          <button type="button" class="pill" data-flavor="MoP">MoP</button>
+          <button type="button" class="pill" data-flavor="Cata">Cata</button>
+          <button type="button" class="pill" data-flavor="Wrath">Wrath</button>
+          <button type="button" class="pill" data-flavor="TBC">TBC</button>
+          <button type="button" class="pill" data-flavor="Classic">Classic</button>
+          <button type="button" class="pill" data-flavor="Forever">Forever</button>
+        </div>
+
+        <div class="search-wrap">
+          <input type="search" id="searchInput" class="search-input" placeholder="Search addons, features, /commands..." data-i18n-placeholder="searchPlaceholder" aria-label="Search addons" />
+        </div>
+      </div>
+    </section>
+
+    <section class="addons-section">
+      <div class="container">
+        <div id="addonsGrid" class="addons-grid"></div>
+        <p id="emptyState" class="empty-state hidden" data-i18n="emptyState">No addons match your current filter.</p>
+      </div>
+    </section>
+
+    <section class="support-banner">
+      <div class="container support-inner">
+        <div>
+          <h2 data-i18n="supportTitle">Bug Reports &amp; Support</h2>
+          <p data-i18n="supportDesc">
+            Found a bug or missing feature? Please report it directly on the respective addon's GitHub Issue Tracker. Want to support ongoing maintenance?
+          </p>
+        </div>
+        <div class="support-links">
+          <a href="https://donate.goover.dev" target="_blank" rel="noopener noreferrer" class="btn btn-gold">donate.goover.dev</a>
+          <a href="https://ko-fi.com/oldnoob" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Ko-fi</a>
+          <a href="https://www.buymeacoffee.com/goover" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Buy Me a Coffee</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>gOOvER</strong> (<a href="https://www.goover.dev" target="_blank" rel="noopener noreferrer">goover.dev</a>) — Open Source World of Warcraft Addons</p>
+      <p class="footer-note" data-i18n="footerNote">World of Warcraft is a registered trademark of Blizzard Entertainment, Inc.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
