@@ -233,8 +233,8 @@ const I18N = {
     filterAll: "All",
     searchPlaceholder: "Search addons, features, /commands...",
     emptyState: "No addons match your current filter.",
-    supportTitle: "Bug Reports & Support",
-    supportDesc: "Found a bug or missing feature? Please report it directly on the respective addon's GitHub Issue Tracker. Want to support ongoing maintenance?",
+    supportTitle: "Support Development",
+    supportDesc: "Enjoying these addons and want to support ongoing maintenance and updates? Bugs and feature requests can be reported via each addon's Bug Tracker button above.",
     footerNote: "World of Warcraft is a registered trademark of Blizzard Entertainment, Inc.",
     bugsBtn: "Bug Tracker"
   },
@@ -250,8 +250,8 @@ const I18N = {
     filterAll: "Alle",
     searchPlaceholder: "Addons, Features oder /Befehle suchen...",
     emptyState: "Keine Addons für den aktuellen Filter gefunden.",
-    supportTitle: "Bug-Meldungen & Support",
-    supportDesc: "Fehler gefunden oder einen Wunsch? Bitte melde Bugs direkt im jeweiligen GitHub-Bugtracker. Du möchtest die Weiterentwicklung unterstützen?",
+    supportTitle: "Entwicklung unterstützen",
+    supportDesc: "Dir gefallen die Addons und du möchtest die Weiterentwicklung unterstützen? Bugs und Wünsche kannst du direkt über den jeweiligen Bugtracker-Button oben melden.",
     footerNote: "World of Warcraft ist eine eingetragene Marke von Blizzard Entertainment, Inc.",
     bugsBtn: "Bugtracker"
   }
