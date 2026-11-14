@@ -124,37 +124,6 @@ const ADDONS = [
     }
   },
   {
-    id: "ggsocialstate",
-    name: "GGSocialState",
-    category: { en: "Social & LDB", de: "Social & LDB" },
-    version: "2.0.0",
-    license: "GPL-3.0",
-    banner: "assets/banners/ggsocialstate.jpg",
-    flavors: ["Retail", "MoP", "Cata", "Wrath", "TBC", "Classic", "Forever"],
-    commands: ["/ggss"],
-    desc: {
-      en: "LibDataBroker & Minimap tooltip showing online Battle.net friends, character friends, and guild members with quick actions.",
-      de: "LibDataBroker- & Minimap-Tooltip für Battle.net-Freunde, Charakter-Freunde und Gildenmitglieder mit Schnellaktionen."
-    },
-    features: {
-      en: [
-        "Rich LibQTip-1.0 tooltip with class colors & zones",
-        "One-click whisper, invite, /who & guild note editing",
-        "ElvUI & AddOnSkins Transparent tooltip styling"
-      ],
-      de: [
-        "Übersichtlicher LibQTip-1.0-Tooltip mit Klassenfarben & Zonen",
-        "Schnellaktionen für Flüstern, Einladen, /who & Notizen",
-        "ElvUI- & AddOnSkins-Tooltip-Styling"
-      ]
-    },
-    links: {
-      repo: "gOOvER/GGSocialState",
-      curseforge: "https://www.curseforge.com/wow/addons/ggsocialstate",
-      wago: "https://addons.wago.io/addons/ggsocialstate"
-    }
-  },
-  {
     id: "guildgreet-extended",
     name: "GuildGreet-Extended",
     category: { en: "Guild & Social", de: "Gilde & Social" },

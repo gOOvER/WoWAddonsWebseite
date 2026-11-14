@@ -4,7 +4,7 @@ Statische Portfolio-Website für alle aktiv gepflegten World of Warcraft Addons 
 
 ## Features
 - **Dark-Slate & Gold UI** passend zu den Reforged-Addons
-- **7 aktive Addons** (*Factionizer, Parrot Reforged, Gatherer Reforged, ElvUI Embedder, GGSocialState, GuildGreet-Extended, Name2Chat*)
+- **6 aktive Addons** (*Factionizer, Parrot Reforged, Gatherer Reforged, ElvUI Embedder, GuildGreet-Extended, Name2Chat*)
 - **DE / EN Sprachumschalter**
 - **Live-Filter** nach WoW-Version (`Retail`, `MoP`, `Cata`, `Wrath`, `TBC`, `Classic`, `Forever`) & Suche
 - **Live-Versionsabruf** über die GitHub Releases API (mit 30-Minuten-`localStorage`-Cache und statischem Fallback)
