@@ -93,68 +93,6 @@ const ADDONS = [
     }
   },
   {
-    id: "auctioneer-reforged",
-    name: "Auctioneer Reforged",
-    category: { en: "Auction House", de: "Auktionshaus" },
-    version: "1.0.0",
-    license: "GPL-3.0",
-    banner: "assets/banners/auctioneer-reforged.jpg",
-    flavors: ["Retail", "MoP", "Cata", "Wrath", "TBC", "Classic", "Forever"],
-    commands: ["/auc", "/beancounter", "/enchantrix"],
-    desc: {
-      en: "Full Auctioneer suite (Auc-Advanced, BeanCounter, Enchantrix, Informant) modernized with native Ace3/LibDBIcon architecture.",
-      de: "Die komplette Auctioneer-Suite (Auc-Advanced, BeanCounter, Enchantrix, Informant) modernisiert ohne Legacy-Ballast."
-    },
-    features: {
-      en: [
-        "Market price scanning, Appraiser & SearchUI",
-        "BeanCounter history & Enchantrix disenchant values",
-        "Retail Commodity AH & Classic AH API compatibility"
-      ],
-      de: [
-        "Marktpreis-Scans, Appraiser & SearchUI",
-        "BeanCounter-Verlauf & Enchantrix-Entzauberungswerte",
-        "Kompatibel mit Retail Commodity-AH & Classic-AH"
-      ]
-    },
-    links: {
-      repo: "gOOvER/AuctioneerReforged",
-      curseforge: "https://www.curseforge.com/wow/addons/auctioneer-reforged",
-      wago: "https://addons.wago.io/addons/auctioneerreforged"
-    }
-  },
-  {
-    id: "azerothatlas",
-    name: "AzerothAtlas",
-    category: { en: "Map & Questing", de: "Karte & Quests" },
-    version: "Latest",
-    license: "GPL-3.0",
-    banner: "assets/banners/azerothatlas.jpg",
-    flavors: ["Retail", "MoP", "Cata", "Wrath", "TBC", "Classic", "Forever"],
-    commands: ["/atlas", "/carb"],
-    desc: {
-      en: "Modernized continuation of Carbonite featuring zoomable world maps, quest tracking, warehouse, and third-party MapProvider API.",
-      de: "Modernisierte Weiterführung von Carbonite mit stufenloser Weltkarte, Quest-Tracking, Lager-Übersicht und MapProvider-API."
-    },
-    features: {
-      en: [
-        "Zoomable map engine & route guidance",
-        "Quest, Warehouse, Social & Info modules",
-        "Public MapProvider API for Gatherer Reforged & plugins"
-      ],
-      de: [
-        "Stufenlos zoombare Karte & Routenführung",
-        "Quest-, Warehouse-, Social- & Info-Module",
-        "Öffentliche MapProvider-API für Gatherer Reforged & Plugins"
-      ]
-    },
-    links: {
-      repo: "gOOvER/AzerothAtlas",
-      curseforge: "https://www.curseforge.com/wow/addons/azerothatlas",
-      wago: "https://addons.wago.io/addons/azerothatlas"
-    }
-  },
-  {
     id: "elvui-embedder",
     name: "ElvUI Embedder",
     category: { en: "UI & ElvUI", de: "UI & ElvUI" },
