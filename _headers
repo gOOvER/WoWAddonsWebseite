@@ -1,6 +1,6 @@
 /*
   X-Content-Type-Options: nosniff
-  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'self' https://goover.dev https://*.goover.dev;
   Referrer-Policy: strict-origin-when-cross-origin
 
 /assets/*
